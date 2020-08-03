@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1299,1914</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1050,2038</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -60,7 +60,7 @@
       <AssemblyReference>UiPath.Mail</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="919,1749" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="919,1873" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Default="None" Name="LocationCode" />
       <Variable x:TypeArguments="x:String" Default="CheckForCreditCards" Name="FileName" />
@@ -72,6 +72,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <sma:SetAppName ContinueOnError="{x:Null}" DisplayName="Set app name" sap:VirtualizedContainerService.HintSize="877,84" sap2010:WorkflowViewState.IdRef="SetAppName_1" Name="CheckForCreditCards" />
+    <sma:LogMsg ContinueOnError="{x:Null}" sap:VirtualizedContainerService.HintSize="877,84" sap2010:WorkflowViewState.IdRef="LogMsg_5" Msg="T3" />
     <sma:EnterSquence ContinueOnError="{x:Null}" sap:VirtualizedContainerService.HintSize="877,84" sap2010:WorkflowViewState.IdRef="EnterSquence_1" Name="Main" />
     <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="877,1285" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
